@@ -1,0 +1,6 @@
+package com.cg.bank.enums;
+
+public enum AccountType {
+
+	SAVING_ACCOUNT,CURRENT_ACCOUNT,ZERO_ACCOUNT,JANDHAN_ACCOUNT,SALARY_ACCOUNT,LOAN_ACCOUNT
+}

@@ -28,7 +28,7 @@ public class BankController {
 	
 	private static final Logger logger=LoggerFactory.getLogger(BankController.class);	
 	
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public ResponseEntity<String> message() {
 		logger.info("----Hello method---Controller-----Bank Microservices");
 		return new ResponseEntity<String>("Hello from Bank-Microservice", HttpStatus.OK) ;
